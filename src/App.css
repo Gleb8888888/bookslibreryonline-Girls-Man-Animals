@@ -1,0 +1,31 @@
+#App {
+  background-color: bisque;
+  display: flex;
+  flex-flow: row;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 95%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.data-item {
+  border: 2px solid burlywood;
+  padding: 10px;
+  width: 250px;
+  height: 400px;
+  overflow: scroll;
+  margin-bottom: 15px;
+  background-color: beige;
+}
+.data-item span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
